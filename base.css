@@ -8,6 +8,11 @@ section {
   min-height: 25rem;
   padding: 3rem 5rem;
 }
+section h2,
+section p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+}
 section:nth-of-type(odd) {
   background-position: center;
   background-size: cover;
@@ -21,7 +26,6 @@ section:nth-of-type(odd) p {
   padding: 1.25rem;
   font-size: 1.5rem;
   text-transform: uppercase;
-  font-family: Arial, Helvetica, sans-serif;
 }
 section:first-of-type {
   height: 100vh;
