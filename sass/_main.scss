@@ -1,6 +1,5 @@
-@import "normalize";
-@import "globals";
-@import "body";
-@import "navbar";
-@import "footer";
-@import "responsive";
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
