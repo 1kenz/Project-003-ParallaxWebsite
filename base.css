@@ -8,8 +8,11 @@ section {
   min-height: 25rem;
 }
 section:nth-of-type(odd) {
-  background-size: cover;
   background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* fixed => parallax, scroll => normal */
 }
 section:first-of-type {
   background-image: url("https://picsum.photos/800/600?random=1");
